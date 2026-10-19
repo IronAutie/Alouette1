@@ -22,6 +22,13 @@ body { font-family: Georgia, serif; line-height: 1.6; }
 .detail { padding: 0.8em 1em 1.5em 1em; font-size: 14px; text-align: center; line-height: 1.7; }
 .detail p { margin-bottom: 0.8em; }
 .detail blockquote { margin: 1em 0; }
+@media (max-width: 600px) {
+  .grid { flex-direction: column; }
+  .photo, .title { width: 100%; }
+  .title { padding: 1em 0; display: block; }
+  .title h1 { transform: none; }
+  .form-row form { flex-direction: column; }
+}
 </style>
 </head>
 <body>
