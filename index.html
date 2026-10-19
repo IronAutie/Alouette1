@@ -25,9 +25,11 @@ body { font-family: Georgia, serif; line-height: 1.6; }
 @media (max-width: 600px) {
   .grid { flex-direction: column; }
   .photo, .title { width: 100%; }
-  .title { padding: 1em 0; display: block; }
-  .title h1 { transform: none; }
-  .form-row form { flex-direction: column; }
+  .title { padding: 0.5em 0; display: block; }
+  .title h1 { transform: none; margin: 0; }
+  .form-row { padding: 0.5em 1em; }
+  .form-row form { flex-direction: column; gap: 0.5em; }
+  .detail { padding: 0.5em 1em; }
 }
 </style>
 </head>
